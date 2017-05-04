@@ -1,0 +1,4 @@
+#Thu May 04 22:29:50 SAMT 2017
+base.0=F\:\\Private\\CriminalIntent-20170412T181049Z-001\\CriminalIntent\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\5\\slice_1
+renamed.0=classes.dex
+file.0=F\:\\Private\\CriminalIntent-20170412T181049Z-001\\CriminalIntent\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\5\\slice_1\\classes.dex
