@@ -6,22 +6,22 @@
     density="hdpi"
     format="10"
     plugin-version="2.3.0"
-    timestamp="1494005247739"
+    timestamp="1494005493672"
     token="-3925197998259287570"
     verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="546" />
+        duration="1070" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="49" />
+        duration="67" />
     <task
         name="verifier"
-        duration="36" />
+        duration="5" />
 
     <artifact
         location="F:\Private\CriminalIntent-20170412T181049Z-001\CriminalIntent\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
@@ -70,7 +70,7 @@
     </build>
     <build
         build-mode="COLD"
-        timestamp="1494005247739"
+        timestamp="1494005493672"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="F:\Private\CriminalIntent-20170412T181049Z-001\CriminalIntent\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
