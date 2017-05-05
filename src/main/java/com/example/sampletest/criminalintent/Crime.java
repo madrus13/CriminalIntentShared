@@ -46,4 +46,9 @@ public class Crime extends Object {
         this.mId = UUID.randomUUID();
         mDate    = new Date();
     }
+
+    @Override
+    public String toString() {
+        return mTitle;
+    }
 }
