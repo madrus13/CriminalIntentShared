@@ -33,7 +33,7 @@
         android:layout_marginLeft="16dp"
         android:layout_marginRight="16dp"
         />
-    <android.support.v7.widget.AppCompatCheckBox
+    <CheckBox
         android:id="@+id/crime_solved"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
