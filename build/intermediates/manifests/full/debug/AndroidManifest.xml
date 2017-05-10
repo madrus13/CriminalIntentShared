@@ -23,6 +23,7 @@
             </intent-filter>
         </activity>
         <activity android:name="com.example.sampletest.criminalintent.CrimeActivity" />
+        <activity android:name="com.example.sampletest.criminalintent.CrimePagerActivity" />
     </application>
 
 </manifest>

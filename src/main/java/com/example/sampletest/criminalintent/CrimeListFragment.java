@@ -18,6 +18,7 @@ import android.widget.TextView;
 import org.w3c.dom.Text;
 
 import java.util.ArrayList;
+import java.util.logging.Logger;
 
 import static android.R.attr.resource;
 
@@ -26,8 +27,17 @@ import static android.R.attr.resource;
  */
 
 public class CrimeListFragment extends ListFragment {
+    public static final int REQUEST_CRIME = 1;
     private ArrayList<Crime> mCrimes;
     public static final String TAG = "CrimeListFragment";
+
+    @Override
+    public void onActivityResult(int requestCode, int resultCode, Intent data) {
+         if (requestCode == REQUEST_CRIME) {
+             Log.d(TAG, "::REQUEST_CRIME");
+         }
+    }
+
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -38,12 +48,19 @@ public class CrimeListFragment extends ListFragment {
     }
 
     @Override
+    public void onResume() {
+        super.onResume();
+        ((CrimeAdapter)getListAdapter()).notifyDataSetChanged();
+    }
+
+    @Override
     public void onListItemClick(ListView l, View v, int position, long id) {
         Crime c = ((CrimeAdapter)getListAdapter()).getItem(position);
         Intent i = new Intent(getActivity(), CrimeActivity.class);
         i.putExtra(CrimeFragment.EXTRA_CRIME_ID, c.getId());
         startActivity(i);
     }
+
 
     private class CrimeAdapter extends ArrayAdapter<Crime> {
 

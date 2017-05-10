@@ -1,7 +1,0 @@
-#Tue May 09 00:13:28 SAMT 2017
-base.0=F\:\\Private\\CriminalIntent-20170412T181049Z-001\\CriminalIntent\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_33d7ba6c2aed4952f1914c1ec08abd29f245b7c7
-renamed.1=classes.dex
-renamed.0=classes2.dex
-file.1=F\:\\Private\\CriminalIntent-20170412T181049Z-001\\CriminalIntent\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_569b650fbabc3f0e2645ed7546bdac38d17b5cc2\\classes.dex
-base.1=F\:\\Private\\CriminalIntent-20170412T181049Z-001\\CriminalIntent\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_569b650fbabc3f0e2645ed7546bdac38d17b5cc2
-file.0=F\:\\Private\\CriminalIntent-20170412T181049Z-001\\CriminalIntent\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_33d7ba6c2aed4952f1914c1ec08abd29f245b7c7\\classes.dex
