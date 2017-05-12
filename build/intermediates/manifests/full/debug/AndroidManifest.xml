@@ -22,8 +22,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.example.sampletest.criminalintent.CrimeActivity" />
-        <activity android:name="com.example.sampletest.criminalintent.CrimePagerActivity" />
+        <activity
+            android:name="com.example.sampletest.criminalintent.CrimePagerActivity"
+            android:label="@string/app_name" />
     </application>
 
 </manifest>

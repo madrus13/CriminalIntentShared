@@ -51,14 +51,12 @@ category#android.intent.category.LAUNCHER
 ADDED from F:\Private\CriminalIntent-20170412T181049Z-001\CriminalIntent\app\src\main\AndroidManifest.xml:15:17-77
 	android:name
 		ADDED from F:\Private\CriminalIntent-20170412T181049Z-001\CriminalIntent\app\src\main\AndroidManifest.xml:15:27-74
-activity#com.example.sampletest.criminalintent.CrimeActivity
-ADDED from F:\Private\CriminalIntent-20170412T181049Z-001\CriminalIntent\app\src\main\AndroidManifest.xml:18:9-51
-	android:name
-		ADDED from F:\Private\CriminalIntent-20170412T181049Z-001\CriminalIntent\app\src\main\AndroidManifest.xml:18:19-48
 activity#com.example.sampletest.criminalintent.CrimePagerActivity
-ADDED from F:\Private\CriminalIntent-20170412T181049Z-001\CriminalIntent\app\src\main\AndroidManifest.xml:19:9-56
+ADDED from F:\Private\CriminalIntent-20170412T181049Z-001\CriminalIntent\app\src\main\AndroidManifest.xml:18:9-19:47
+	android:label
+		ADDED from F:\Private\CriminalIntent-20170412T181049Z-001\CriminalIntent\app\src\main\AndroidManifest.xml:19:13-45
 	android:name
-		ADDED from F:\Private\CriminalIntent-20170412T181049Z-001\CriminalIntent\app\src\main\AndroidManifest.xml:19:19-53
+		ADDED from F:\Private\CriminalIntent-20170412T181049Z-001\CriminalIntent\app\src\main\AndroidManifest.xml:18:19-53
 uses-sdk
 INJECTED from F:\Private\CriminalIntent-20170412T181049Z-001\CriminalIntent\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.android.support:appcompat-v7:25.2.0] C:\Users\ms\.android\build-cache\46268b7df03031a9d55c8ad6ed6444dd16b8521a\output\AndroidManifest.xml:21:5-23:78

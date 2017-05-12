@@ -13,6 +13,7 @@ import android.support.annotation.RequiresApi;
 import android.text.Editable;
 import android.text.TextWatcher;
 import android.text.format.DateFormat;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -41,6 +42,7 @@ public class CrimeFragment extends Fragment {
     }
 
     public static CrimeFragment newInstance(UUID crimeId) {
+        Log.d("Crime", "CrimeFragment->newInstance : UUID=" + crimeId.toString());
         Bundle args = new Bundle();
         args.putSerializable(EXTRA_CRIME_ID, crimeId);
 
@@ -53,15 +55,18 @@ public class CrimeFragment extends Fragment {
     @Override
     public void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        UUID crimeId = (UUID)getActivity().getIntent().
-                getSerializableExtra(EXTRA_CRIME_ID);
-
+        UUID crimeId = (UUID)getArguments().getSerializable(EXTRA_CRIME_ID);
+        Log.d("Crime", "CrimeFragment->onCreate: UUID=" + crimeId.toString());
         mCrime = CrimeLab.get(getActivity()).getCrime(crimeId);
+        Log.d("Crime", "CrimeFragment->onCreate: pos" + mCrime.getTitle());
     }
 
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup parent, Bundle savedInstanceState) {
+
+        Log.d("Crime", "CrimeFragment->onCreateView");
+
         View v = inflater.inflate(R.layout.fragment_crime, parent, false);
         mTitleField = (EditText) v.findViewById(R.id.crime_title);
         mTitleField.setText(mCrime.getTitle());
