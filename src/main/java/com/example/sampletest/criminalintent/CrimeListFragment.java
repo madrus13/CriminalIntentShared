@@ -7,6 +7,7 @@ import android.support.annotation.LayoutRes;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 import android.support.v4.app.ListFragment;
+import android.text.format.DateFormat;
 import android.util.Log;
 import android.view.View;
 import android.view.ViewGroup;
@@ -82,7 +83,11 @@ public class CrimeListFragment extends ListFragment {
 
             TextView dateTextView =
                     (TextView) convertView.findViewById(R.id.crime_list_item_dateTextView);
-            dateTextView.setText(c.getDate().toString());
+
+            String formatDate = DateFormat.format("EEEE, MMM dd, yyyy hh:mm",
+                    c.getDate()).toString();
+
+            dateTextView.setText(formatDate);
 
             CheckBox solvedCheckBox = (CheckBox)convertView.findViewById(R.id.crime_list_item_solvedCheckBox);
            solvedCheckBox.setChecked(c.isSolved());
