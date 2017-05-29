@@ -124,12 +124,12 @@
         "source": "C:\\Users\\ms\\.android\\build-cache\\46268b7df03031a9d55c8ad6ed6444dd16b8521a\\output\\res\\layout\\notification_template_icon_group.xml"
     },
     {
-        "merged": "F:\\Private\\CriminalIntent-20170412T181049Z-001\\CriminalIntent\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_close_item_material.xml",
-        "source": "C:\\Users\\ms\\.android\\build-cache\\46268b7df03031a9d55c8ad6ed6444dd16b8521a\\output\\res\\layout\\abc_action_mode_close_item_material.xml"
-    },
-    {
         "merged": "F:\\Private\\CriminalIntent-20170412T181049Z-001\\CriminalIntent\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_time.xml",
         "source": "F:\\Private\\CriminalIntent-20170412T181049Z-001\\CriminalIntent\\app\\src\\main\\res\\layout\\dialog_time.xml"
+    },
+    {
+        "merged": "F:\\Private\\CriminalIntent-20170412T181049Z-001\\CriminalIntent\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_close_item_material.xml",
+        "source": "C:\\Users\\ms\\.android\\build-cache\\46268b7df03031a9d55c8ad6ed6444dd16b8521a\\output\\res\\layout\\abc_action_mode_close_item_material.xml"
     },
     {
         "merged": "F:\\Private\\CriminalIntent-20170412T181049Z-001\\CriminalIntent\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_select_dialog_material.xml",
@@ -160,16 +160,12 @@
         "source": "C:\\Users\\ms\\.android\\build-cache\\46268b7df03031a9d55c8ad6ed6444dd16b8521a\\output\\res\\layout\\abc_screen_content_include.xml"
     },
     {
-        "merged": "F:\\Private\\CriminalIntent-20170412T181049Z-001\\CriminalIntent\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_action_tombstone.xml",
-        "source": "C:\\Users\\ms\\.android\\build-cache\\46268b7df03031a9d55c8ad6ed6444dd16b8521a\\output\\res\\layout\\notification_action_tombstone.xml"
-    },
-    {
         "merged": "F:\\Private\\CriminalIntent-20170412T181049Z-001\\CriminalIntent\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_icon.xml",
         "source": "C:\\Users\\ms\\.android\\build-cache\\46268b7df03031a9d55c8ad6ed6444dd16b8521a\\output\\res\\layout\\abc_list_menu_item_icon.xml"
     },
     {
-        "merged": "F:\\Private\\CriminalIntent-20170412T181049Z-001\\CriminalIntent\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_custom_big.xml",
-        "source": "C:\\Users\\ms\\.android\\build-cache\\46268b7df03031a9d55c8ad6ed6444dd16b8521a\\output\\res\\layout\\notification_template_custom_big.xml"
+        "merged": "F:\\Private\\CriminalIntent-20170412T181049Z-001\\CriminalIntent\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_action_tombstone.xml",
+        "source": "C:\\Users\\ms\\.android\\build-cache\\46268b7df03031a9d55c8ad6ed6444dd16b8521a\\output\\res\\layout\\notification_action_tombstone.xml"
     },
     {
         "merged": "F:\\Private\\CriminalIntent-20170412T181049Z-001\\CriminalIntent\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view.xml",
@@ -178,5 +174,9 @@
     {
         "merged": "F:\\Private\\CriminalIntent-20170412T181049Z-001\\CriminalIntent\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_radio.xml",
         "source": "C:\\Users\\ms\\.android\\build-cache\\46268b7df03031a9d55c8ad6ed6444dd16b8521a\\output\\res\\layout\\abc_list_menu_item_radio.xml"
+    },
+    {
+        "merged": "F:\\Private\\CriminalIntent-20170412T181049Z-001\\CriminalIntent\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_custom_big.xml",
+        "source": "C:\\Users\\ms\\.android\\build-cache\\46268b7df03031a9d55c8ad6ed6444dd16b8521a\\output\\res\\layout\\notification_template_custom_big.xml"
     }
 ]

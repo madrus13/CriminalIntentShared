@@ -2350,6 +2350,7 @@ containing a value of this type.
         public static final int listMode=0x7f0b0013;
         public static final int list_item=0x7f0b0034;
         public static final int media_actions=0x7f0b006f;
+        public static final int menu_item_new_crime=0x7f0b0080;
         public static final int middle=0x7f0b0025;
         public static final int multiply=0x7f0b001d;
         public static final int never=0x7f0b0029;
@@ -2472,6 +2473,9 @@ containing a value of this type.
         public static final int select_dialog_singlechoice_material=0x7f040031;
         public static final int support_simple_spinner_dropdown_item=0x7f040032;
     }
+    public static final class menu {
+        public static final int fragment_crime_list=0x7f0d0000;
+    }
     public static final class mipmap {
         public static final int ic_launcher=0x7f030000;
         public static final int ic_launcher_round=0x7f030001;
@@ -2515,16 +2519,30 @@ containing a value of this type.
         public static final int crime_title_label=0x7f060025;
         public static final int crimes_title=0x7f060026;
         public static final int date_picker_title=0x7f060027;
+        public static final int delete_crime=0x7f060028;
+        public static final int hide_subtitle=0x7f060029;
+        public static final int new_crime=0x7f06002a;
         public static final int search_menu_title=0x7f060013;
+        public static final int show_subtitle=0x7f06002b;
         public static final int status_bar_notification_info_overflow=0x7f060014;
-        public static final int time_picker_title=0x7f060028;
+        public static final int subtitle=0x7f06002c;
+        public static final int time_picker_title=0x7f06002d;
+        public static final int title_activity_main=0x7f06002e;
     }
     public static final class style {
         public static final int AlertDialog_AppCompat=0x7f08009f;
         public static final int AlertDialog_AppCompat_Light=0x7f0800a0;
         public static final int Animation_AppCompat_Dialog=0x7f0800a1;
         public static final int Animation_AppCompat_DropDownUp=0x7f0800a2;
+        /** 
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        
+         */
         public static final int AppBaseTheme=0x7f0800a3;
+        /**  All customizations that are NOT specific to a particular API-level can go here. 
+         */
         public static final int AppTheme=0x7f0800a4;
         public static final int Base_AlertDialog_AppCompat=0x7f0800a5;
         public static final int Base_AlertDialog_AppCompat_Light=0x7f0800a6;
