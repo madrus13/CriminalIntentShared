@@ -630,6 +630,7 @@ int id listMode 0x7f0b0013
 int id list_item 0x7f0b0034
 int id media_actions 0x7f0b006f
 int id menu_item_new_crime 0x7f0b0080
+int id menu_item_show_subtitle 0x7f0b0081
 int id middle 0x7f0b0025
 int id multiply 0x7f0b001d
 int id never 0x7f0b0029

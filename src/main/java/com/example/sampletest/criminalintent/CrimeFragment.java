@@ -1,6 +1,7 @@
 package com.example.sampletest.criminalintent;
 
 
+import android.annotation.TargetApi;
 import android.app.Activity;
 import android.content.Intent;
 import android.support.v4.app.Fragment;
@@ -11,11 +12,13 @@ import android.os.Bundle;
 import android.support.annotation.CheckResult;
 import android.support.annotation.Nullable;
 import android.support.annotation.RequiresApi;
+import android.support.v4.app.NavUtils;
 import android.text.Editable;
 import android.text.TextWatcher;
 import android.text.format.DateFormat;
 import android.util.Log;
 import android.view.LayoutInflater;
+import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
@@ -104,21 +107,44 @@ public class CrimeFragment extends Fragment {
     }
 
     @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        switch (item.getItemId())
+        {
+            case android.R.id.home:
+            if (NavUtils.getParentActivityName(getActivity()) != null) {
+                NavUtils.navigateUpFromSameTask(getActivity());
+            }
+                return true;
+            default:
+                return super.onOptionsItemSelected(item);
+        }
+    }
+
+    @Override
     public void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
         UUID crimeId = (UUID)getArguments().getSerializable(EXTRA_CRIME_ID);
         mCrime = CrimeLab.get(getActivity()).getCrime(crimeId);
 
+        setHasOptionsMenu(true);
     }
 
+    @TargetApi(11)
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup parent, Bundle savedInstanceState) {
 
-        Log.d("Crime", "CrimeFragment->onCreateView");
+       // Log.d("Crime", "CrimeFragment->onCreateView");
 
         View v = inflater.inflate(R.layout.fragment_crime, parent, false);
+
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.HONEYCOMB) {
+            if (NavUtils.getParentActivityIntent(getActivity()) != null) {
+                getActivity().getActionBar().setDisplayHomeAsUpEnabled(true);
+            }
+        }
+
         mTitleField = (EditText) v.findViewById(R.id.crime_title);
         mTitleField.setText(mCrime.getTitle());
         mTitleField.addTextChangedListener(new TextWatcher() {

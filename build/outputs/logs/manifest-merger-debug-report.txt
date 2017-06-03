@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from F:\Private\CriminalIntent-20170412T181049Z-001\CriminalIntent\app\src\main\AndroidManifest.xml:2:1-24:12
+ADDED from F:\Private\CriminalIntent-20170412T181049Z-001\CriminalIntent\app\src\main\AndroidManifest.xml:2:1-28:12
 	package
 		ADDED from F:\Private\CriminalIntent-20170412T181049Z-001\CriminalIntent\app\src\main\AndroidManifest.xml:3:5-52
 		INJECTED from F:\Private\CriminalIntent-20170412T181049Z-001\CriminalIntent\app\src\main\AndroidManifest.xml
@@ -14,7 +14,7 @@ ADDED from F:\Private\CriminalIntent-20170412T181049Z-001\CriminalIntent\app\src
 		INJECTED from F:\Private\CriminalIntent-20170412T181049Z-001\CriminalIntent\app\src\main\AndroidManifest.xml
 		INJECTED from F:\Private\CriminalIntent-20170412T181049Z-001\CriminalIntent\app\src\main\AndroidManifest.xml
 application
-ADDED from F:\Private\CriminalIntent-20170412T181049Z-001\CriminalIntent\app\src\main\AndroidManifest.xml:5:5-22:19
+ADDED from F:\Private\CriminalIntent-20170412T181049Z-001\CriminalIntent\app\src\main\AndroidManifest.xml:5:5-26:19
 MERGED from [com.android.support:appcompat-v7:25.2.0] C:\Users\ms\.android\build-cache\46268b7df03031a9d55c8ad6ed6444dd16b8521a\output\AndroidManifest.xml:25:5-20
 MERGED from [com.android.support:animated-vector-drawable:25.2.0] C:\Users\ms\.android\build-cache\b512957f73888ae7c2d93480c2db21ec75c27596\output\AndroidManifest.xml:22:5-20
 MERGED from [com.android.support:support-vector-drawable:25.2.0] C:\Users\ms\.android\build-cache\73a0420aff06e0ba9835ac2fffc54974101ae80c\output\AndroidManifest.xml:23:5-20
@@ -52,11 +52,17 @@ ADDED from F:\Private\CriminalIntent-20170412T181049Z-001\CriminalIntent\app\src
 	android:name
 		ADDED from F:\Private\CriminalIntent-20170412T181049Z-001\CriminalIntent\app\src\main\AndroidManifest.xml:16:27-74
 activity#com.example.sampletest.criminalintent.CrimePagerActivity
-ADDED from F:\Private\CriminalIntent-20170412T181049Z-001\CriminalIntent\app\src\main\AndroidManifest.xml:19:9-21:48
+ADDED from F:\Private\CriminalIntent-20170412T181049Z-001\CriminalIntent\app\src\main\AndroidManifest.xml:19:9-24:24
 	android:label
 		ADDED from F:\Private\CriminalIntent-20170412T181049Z-001\CriminalIntent\app\src\main\AndroidManifest.xml:21:13-45
 	android:name
 		ADDED from F:\Private\CriminalIntent-20170412T181049Z-001\CriminalIntent\app\src\main\AndroidManifest.xml:20:13-47
+meta-data#android.support.PARENT_ACTIVITY
+ADDED from F:\Private\CriminalIntent-20170412T181049Z-001\CriminalIntent\app\src\main\AndroidManifest.xml:22:13-23:51
+	android:value
+		ADDED from F:\Private\CriminalIntent-20170412T181049Z-001\CriminalIntent\app\src\main\AndroidManifest.xml:23:14-48
+	android:name
+		ADDED from F:\Private\CriminalIntent-20170412T181049Z-001\CriminalIntent\app\src\main\AndroidManifest.xml:22:24-70
 uses-sdk
 INJECTED from F:\Private\CriminalIntent-20170412T181049Z-001\CriminalIntent\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.android.support:appcompat-v7:25.2.0] C:\Users\ms\.android\build-cache\46268b7df03031a9d55c8ad6ed6444dd16b8521a\output\AndroidManifest.xml:21:5-23:78

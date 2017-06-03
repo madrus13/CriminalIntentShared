@@ -6,7 +6,6 @@
         android:enabled="true"
         android:icon="@android:drawable/ic_menu_add"
         android:title="@string/new_crime"
-        android:visible="true"
         app:showAsAction="ifRoom|withText" />
 
 </menu>

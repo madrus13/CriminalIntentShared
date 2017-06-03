@@ -61,6 +61,16 @@ public class CrimeListFragment extends ListFragment  {
                 Intent i = new Intent(getActivity(), CrimePagerActivity.class);
                startActivityForResult(i,0);
                return true;
+           case R.id.menu_item_show_subtitle:
+               if (getActivity().getActionBar().getSubtitle() == null) {
+                   getActivity().getActionBar().setSubtitle(R.string.subtitle);
+                   item.setTitle(R.string.hide_subtitle);
+               }
+               else {
+                   getActivity().getActionBar().setSubtitle(null);
+                   item.setTitle(R.string.show_subtitle);
+               }
+               return true;
            default:
                return super.onOptionsItemSelected(item);
        }
