@@ -6,22 +6,22 @@
     density="hdpi"
     format="10"
     plugin-version="2.3.0"
-    timestamp="1496510735576"
+    timestamp="1496693859563"
     token="-3925197998259287570"
     verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="3478" />
+        duration="2272" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="181" />
+        duration="138" />
     <task
         name="verifier"
-        duration="37" />
+        duration="32" />
 
     <artifact
         location="F:\Private\CriminalIntent-20170412T181049Z-001\CriminalIntent\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
@@ -29,14 +29,11 @@
 
     <build
         build-mode="FULL"
-        timestamp="1496509225503"
+        timestamp="1496691736447"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="F:\Private\CriminalIntent-20170412T181049Z-001\CriminalIntent\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
             type="SPLIT" />
-        <artifact
-            location="F:\Private\CriminalIntent-20170412T181049Z-001\CriminalIntent\app\build\outputs\apk\app-debug.apk"
-            type="SPLIT_MAIN" />
         <artifact
             location="F:\Private\CriminalIntent-20170412T181049Z-001\CriminalIntent\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
             type="SPLIT" />
@@ -67,10 +64,29 @@
         <artifact
             location="F:\Private\CriminalIntent-20170412T181049Z-001\CriminalIntent\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
             type="SPLIT" />
+        <artifact
+            location="F:\Private\CriminalIntent-20170412T181049Z-001\CriminalIntent\app\build\outputs\apk\app-debug.apk"
+            type="SPLIT_MAIN" />
     </build>
     <build
         build-mode="COLD"
-        timestamp="1496510735576"
+        timestamp="1496692536106"
+        verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="F:\Private\CriminalIntent-20170412T181049Z-001\CriminalIntent\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
+            type="SPLIT" />
+    </build>
+    <build
+        build-mode="COLD"
+        timestamp="1496693500867"
+        verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="F:\Private\CriminalIntent-20170412T181049Z-001\CriminalIntent\app\build\outputs\apk\app-debug.apk"
+            type="SPLIT_MAIN" />
+    </build>
+    <build
+        build-mode="COLD"
+        timestamp="1496693859563"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="F:\Private\CriminalIntent-20170412T181049Z-001\CriminalIntent\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
